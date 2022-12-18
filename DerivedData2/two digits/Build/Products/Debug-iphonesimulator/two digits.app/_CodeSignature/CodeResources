@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		aalnRH17Jttvq2ApNU1mCXk1fBo=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		Gd4fBYmcPFfeSla7ncoEurW1bS8=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		AlpZkzYkK2Ql0q0HZVNXcpKXbLs=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		0ChpSGDCG9N4elOOMeCJUwfGlgw=
@@ -30,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BuBkCuTr9G1yCu5eqaJqltHx5zc=
+		uqMmFXDlwTZqkFzoTHDlE2j5RXA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -39,6 +51,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KA8SWrFUD2ZWOBdQQeMARlhs6pQbc4Enq5CfHCnyelw=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uNGWz9SDpu6LAtezImFiL59dofW1BplHkcHxNRciw8c=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zKRyEI17o1FWpV120FV8CcgVU7ImVI/Fjke48JruFZ8=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>

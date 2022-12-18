@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         calculateLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20).isActive = true
         calculateLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20).isActive = true
         calculateLabel.topAnchor.constraint(equalTo: numL3.bottomAnchor, constant: nicePosition).isActive = true
-        calculateLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 3).isActive = true
+        calculateLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 2).isActive = true
         calculateLabel.textAlignment = .center
         calculateLabel.font = UIFont.systemFont(ofSize: self.view.bounds.width / 10)
         calculateLabel.textColor = UIColor.black
@@ -115,7 +115,7 @@ class ViewController: UIViewController {
         answerLabel.translatesAutoresizingMaskIntoConstraints = false
         answerLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         answerLabel.topAnchor.constraint(equalTo: calculateLabel.bottomAnchor, constant: nicePosition).isActive = true
-        answerLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 3).isActive = true
+        answerLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 2).isActive = true
         answerLabel.textAlignment = .center
         answerLabel.font = UIFont.systemFont(ofSize: self.view.bounds.width / 10)
         answerLabel.textColor = UIColor.black
@@ -138,7 +138,7 @@ class ViewController: UIViewController {
         switchButton.layer.shadowRadius = CGFloat(5)//影の幅、数字が大きいほどぼかしが効く
         switchButton.setTitle("解 答", for: .normal)
         switchButton.setTitleColor(UIColor.black, for: .normal)
-        switchButton.titleLabel?.font = UIFont.systemFont(ofSize: self.view.bounds.width / 10)
+        switchButton.titleLabel?.font = UIFont.systemFont(ofSize: self.view.bounds.width / 13)
     }
     
     override func viewWillLayoutSubviews() {
