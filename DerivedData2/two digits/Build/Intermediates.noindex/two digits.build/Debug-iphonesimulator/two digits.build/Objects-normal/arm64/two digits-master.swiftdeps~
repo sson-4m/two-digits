@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "9aeadd5a36a402191690ad7461ff53565c5a51d7ad4a86bf387cdd4bf2f3c13c"
+build_start_time: [1671182452, 441730022]
+build_end_time: [1671182452, 461362838]
+inputs:
+  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/AppDelegate.swift": !private [1671181213, 191135168]
+  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/SceneDelegate.swift": !private [1671181213, 194190502]
+  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/ViewController.swift": !private [1671182451, 45016765]
