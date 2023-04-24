@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
 options: "3002fb92501ddf17cb62ad16f4a11a788d08f25cb4bdaceb155b6ebfd794b983"
-build_start_time: [1680331167, 991385000]
-build_end_time: [1680331168, 724936000]
+build_start_time: [1680402765, 720052000]
+build_end_time: [1680402766, 233982000]
 inputs:
   "/Users/Hironori/Desktop/AppContainer/two digits/two digits/AppDelegate.swift": [1671181213, 191135215]
-  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/MenuViewController.swift": [1680310951, 772735542]
+  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/MenuViewController.swift": [1680402765, 484167004]
   "/Users/Hironori/Desktop/AppContainer/two digits/two digits/SceneDelegate.swift": [1671181213, 194190508]
-  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/ViewController.swift": [1680331167, 737109165]
+  "/Users/Hironori/Desktop/AppContainer/two digits/two digits/ViewController.swift": [1680400766, 883102884]

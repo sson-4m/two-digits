@@ -10,24 +10,24 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    var questionLabel = UILabel()
+    var questionLabel = UILabel()//問題
     
-    var numL1 = UILabel()
+    var numL1 = UILabel()//計算
     var numL2 = UILabel()
     var numL3 = UILabel()
     
-    var calculateLabel = UILabel()
-    var answerLabel = UILabel()
+    var calculateLabel = UILabel()//足し算
+    var answerLabel = UILabel()//答え
     
-    var switchButton = UIButton()
-    var backToMenuButton = UIButton()
+    var switchButton = UIButton()//切り替えボタン
+    var backToMenuButton = UIButton()//戻るボタン
     
-    var flag = false
+    var flag = false//切り替えボタンの機能変更
     
-    var numbers1: [Int] = []
+    var numbers1: [Int] = []//数字の入れ物
     var numbers2: [Int] = []
     
-    var a1:String = ""
+    var a1:String = ""//２桁の数字を表示
     var a2:String = ""
     
     var a:Int = 0
@@ -44,13 +44,11 @@ class ViewController: UIViewController {
         
         calculate()
         
-        let position = self.view.bounds.height / 8
-        let heightOfNumLabel = self.view.bounds.width / 9
-        let widthOfButton = self.view.bounds.width / 2.5
-        let heightOfLabel = self.view.bounds.height / 8
-        let spaceOfLabel = self.view.bounds.height / 35
+        let position = self.view.bounds.height / 8//ボタンやラベルの位置
+        let heightOfNumLabel = self.view.bounds.width / 9//主にnumラベルの高さ
+        let widthOfButton = self.view.bounds.width / 2.5//ボタンの幅
+        let spaceOfLabel = self.view.bounds.height / 35//ラベル間の隙間
         let heightOfStartButton = self.view.bounds.height / 10
-        
         let fontSizeOfnumbers = self.view.bounds.width / 10
         
         
@@ -63,22 +61,15 @@ class ViewController: UIViewController {
         backToMenuButton.tag = 1
         backToMenuButton.addTarget(self, action: #selector(buttonTapped(_:)), for: UIControl.Event.touchUpInside)
         backToMenuButton.layer.cornerRadius = widthOfButton/6
-        //backToMenuButton.backgroundColor = UIColor.blue // 背景色
-        //backToMenuButton.layer.borderWidth = 0.1 // 枠線の幅
-        //backToMenuButton.layer.shadowOffset = CGSize(width: 1, height: 3)//widthで右側に影、heightで下側に影が入る
-        //backToMenuButton.layer.shadowOpacity = Float(0.6)//影の不透明度、1.0がMAX
-        //backToMenuButton.layer.shadowRadius = CGFloat(5)//影の幅、数字が大きいほどぼかしが効く
         backToMenuButton.setImage(UIImage(named: "leftarrow"), for: .normal)
-        /*backToMenuButton.imageView?.contentMode = .scaleAspectFill
-        backToMenuButton.contentHorizontalAlignment = .fill
-        backToMenuButton.contentVerticalAlignment = .fill*/
         backToMenuButton.imageEdgeInsets = UIEdgeInsets(top: -10, left: -10, bottom: -10, right: -10)
+        
         
         self.view.addSubview(questionLabel)
         questionLabel.translatesAutoresizingMaskIntoConstraints = false
         questionLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         questionLabel.topAnchor.constraint(equalTo: self.backToMenuButton.bottomAnchor, constant: position/8).isActive = true
-        questionLabel.heightAnchor.constraint(equalToConstant: heightOfLabel).isActive = true
+        questionLabel.heightAnchor.constraint(equalToConstant: position).isActive = true
         questionLabel.textAlignment = .center
         questionLabel.font = UIFont.systemFont(ofSize: self.view.bounds.width / 5)
         questionLabel.textColor = UIColor.black
@@ -128,7 +119,7 @@ class ViewController: UIViewController {
         calculateLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20).isActive = true
         calculateLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20).isActive = true
         calculateLabel.topAnchor.constraint(equalTo: numL3.bottomAnchor, constant: heightOfNumLabel).isActive = true
-        calculateLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 2).isActive = true
+        calculateLabel.heightAnchor.constraint(equalToConstant: position / 2).isActive = true
         calculateLabel.textAlignment = .center
         calculateLabel.font = UIFont.systemFont(ofSize: self.view.bounds.width / 10)
         calculateLabel.adjustsFontSizeToFitWidth = true
@@ -140,13 +131,12 @@ class ViewController: UIViewController {
         answerLabel.translatesAutoresizingMaskIntoConstraints = false
         answerLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         answerLabel.topAnchor.constraint(equalTo: calculateLabel.bottomAnchor, constant: spaceOfLabel/2).isActive = true
-        answerLabel.heightAnchor.constraint(equalToConstant: heightOfLabel / 2).isActive = true
+        answerLabel.heightAnchor.constraint(equalToConstant: position / 2).isActive = true
         answerLabel.textAlignment = .center
         answerLabel.font = calculateLabel.font
         answerLabel.adjustsFontSizeToFitWidth = true
         answerLabel.textColor = UIColor.black
         answerLabel.isHidden = true
-        
         
         
         self.view.addSubview(switchButton)
@@ -166,9 +156,6 @@ class ViewController: UIViewController {
         switchButton.setTitle("解  答", for: .normal)
         switchButton.setTitleColor(UIColor.black, for: .normal)
         switchButton.titleLabel?.font = UIFont.systemFont(ofSize: self.view.bounds.width / 13)
-        
-        
-        
     }
     /*
     override func viewWillLayoutSubviews() {
@@ -181,13 +168,11 @@ class ViewController: UIViewController {
     
     @objc func buttonTapped(_ sender : Any) {
         switch (sender as AnyObject).tag{
-            
         case 1:
             dismiss(animated: true)
         case 2:
             if(flag){
                 calculate()
-                
                 numL1.isHidden = true
                 numL2.isHidden = true
                 numL3.isHidden = true
@@ -202,7 +187,6 @@ class ViewController: UIViewController {
                 calculateLabel.isHidden = false
                 answerLabel.isHidden = false
                 switchButton.setTitle("次の計算", for: .normal)
-                
                 flag = true
             }
         default:
@@ -234,7 +218,6 @@ class ViewController: UIViewController {
             a2 += String(numbers[1])
         }
         questionLabel.text = a1 + " × " + a2
-        
     }
     
     func plusNumbers(){
@@ -251,7 +234,6 @@ class ViewController: UIViewController {
         
         calculateLabel.text = String(a) + " + " + String(bc) + " + " + String(d)
         answerLabel.text = " = " + String(answer)
-        
     }
     
     

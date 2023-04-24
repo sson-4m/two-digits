@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>3B39F00E-C31A-4C2E-8D49-4E16BD18C675</key>
+		<key>0373F805-6D75-450E-9537-21B4E4999B62</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3B39F00E-C31A-4C2E-8D49-4E16BD18C675.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9IaXJvbm9yaVwvRGVza3RvcFwvQXBwQ29udGFpbmVyXC90d28gZGlnaXRzXC90d28gZGlnaXRzLnhjb2RlcHJvaiJ9</string>
-			<key>timeStartedRecording</key>
-			<real>702024421.64224803</real>
-			<key>timeStoppedRecording</key>
-			<real>702024433.97059906</real>
-			<key>title</key>
-			<string>Archive two digits</string>
-			<key>uniqueIdentifier</key>
-			<string>3B39F00E-C31A-4C2E-8D49-4E16BD18C675</string>
-		</dict>
-		<key>447C5AF6-5449-4E45-A1B4-9C110AE1F009</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>447C5AF6-5449-4E45-A1B4-9C110AE1F009.xcactivitylog</string>
+			<string>0373F805-6D75-450E-9537-21B4E4999B62.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,15 @@
 			<key>signature</key>
 			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
 			<key>timeStartedRecording</key>
-			<real>702024421.64224803</real>
+			<real>702095565.49128997</real>
 			<key>timeStoppedRecording</key>
-			<real>63113904000</real>
+			<real>702095566.23594797</real>
 			<key>title</key>
-			<string>Archive two digits</string>
+			<string>Build two digits</string>
 			<key>uniqueIdentifier</key>
-			<string>447C5AF6-5449-4E45-A1B4-9C110AE1F009</string>
+			<string>0373F805-6D75-450E-9537-21B4E4999B62</string>
 		</dict>
-		<key>5453A418-CEE6-4834-A6A0-7D756066BECB</key>
+		<key>40439AC4-D720-42A5-BA6C-582AEF87C3C7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -71,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5453A418-CEE6-4834-A6A0-7D756066BECB.xcactivitylog</string>
+			<string>40439AC4-D720-42A5-BA6C-582AEF87C3C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,15 +54,15 @@
 			<key>signature</key>
 			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL0hpcm9ub3JpXC9EZXNrdG9wXC9BcHBDb250YWluZXJcL3R3byBkaWdpdHNcL3R3byBkaWdpdHMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4REVGMTA1MjI5NEM2QjFEMDBGNDc2QkMifQ==</string>
 			<key>timeStartedRecording</key>
-			<real>702024421.64224803</real>
+			<real>702095565.49128997</real>
 			<key>timeStoppedRecording</key>
-			<real>702024433.97059906</real>
+			<real>702095566.23594797</real>
 			<key>title</key>
-			<string>Archive two digits</string>
+			<string>Build two digits</string>
 			<key>uniqueIdentifier</key>
-			<string>5453A418-CEE6-4834-A6A0-7D756066BECB</string>
+			<string>40439AC4-D720-42A5-BA6C-582AEF87C3C7</string>
 		</dict>
-		<key>C4F11CFC-6EA6-4EC8-BE0D-CEEA49ED683E</key>
+		<key>420E6139-92BF-4613-B909-55C99A62E0F3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -99,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C4F11CFC-6EA6-4EC8-BE0D-CEEA49ED683E.xcactivitylog</string>
+			<string>420E6139-92BF-4613-B909-55C99A62E0F3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -108,15 +80,43 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9</string>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9IaXJvbm9yaVwvRGVza3RvcFwvQXBwQ29udGFpbmVyXC90d28gZGlnaXRzXC90d28gZGlnaXRzLnhjb2RlcHJvaiJ9</string>
 			<key>timeStartedRecording</key>
-			<real>702024421.64224803</real>
+			<real>702095565.49128997</real>
 			<key>timeStoppedRecording</key>
-			<real>702024433.97059906</real>
+			<real>702095566.23594797</real>
 			<key>title</key>
-			<string>Archive two digits</string>
+			<string>Build two digits</string>
 			<key>uniqueIdentifier</key>
-			<string>C4F11CFC-6EA6-4EC8-BE0D-CEEA49ED683E</string>
+			<string>420E6139-92BF-4613-B909-55C99A62E0F3</string>
+		</dict>
+		<key>972157FE-9BA4-4CB4-AB1F-3745A2EB5C63</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>972157FE-9BA4-4CB4-AB1F-3745A2EB5C63.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludCI6e319LCJibHVlcHJpbnRfcHJvdmlkZXJGaWxlUGF0aFN0cmluZyI6IlwvVXNlcnNcL0hpcm9ub3JpXC9EZXNrdG9wXC9BcHBDb250YWluZXJcL3R3byBkaWdpdHNcL3R3byBkaWdpdHMueGNvZGVwcm9qIiwiYmx1ZXByaW50X2JsdWVwcmludElkZW50aWZpZXIiOiI4REVGMTA1MjI5NEM2QjFEMDBGNDc2QkMifQ==</string>
+			<key>timeStartedRecording</key>
+			<real>702095565.49128997</real>
+			<key>timeStoppedRecording</key>
+			<real>702095566.23594797</real>
+			<key>title</key>
+			<string>Build two digits</string>
+			<key>uniqueIdentifier</key>
+			<string>972157FE-9BA4-4CB4-AB1F-3745A2EB5C63</string>
 		</dict>
 	</dict>
 </dict>

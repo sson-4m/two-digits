@@ -13,10 +13,12 @@ class MenuViewController: UIViewController {
     var titleLabel = UILabel()
     
     var method1Button = UIButton()
+    var method2Button = UIButton()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         
         let position = self.view.bounds.height / 8
         let nicePosition = self.view.bounds.height / 22
@@ -41,7 +43,7 @@ class MenuViewController: UIViewController {
         method1Button.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: nicePosition).isActive = true
         method1Button.widthAnchor.constraint(equalToConstant: widthOfButton).isActive = true
         method1Button.heightAnchor.constraint(equalToConstant: heightOfStartButton).isActive = true
-        method1Button.tag = 2
+        method1Button.tag = 1
         method1Button.addTarget(self, action: #selector(buttonTapped(_:)), for: UIControl.Event.touchUpInside)
         method1Button.layer.cornerRadius = heightOfStartButton / 2
         method1Button.backgroundColor = UIColor.lightGray // 背景色
@@ -52,14 +54,34 @@ class MenuViewController: UIViewController {
         method1Button.setTitle("2本曲線法", for: .normal)
         method1Button.setTitleColor(UIColor.black, for: .normal)
         method1Button.titleLabel?.font = UIFont.systemFont(ofSize: self.view.bounds.width / 13)
-        // Do any additional setup after loading the view.
+        
+        
+        self.view.addSubview(method2Button)
+        method2Button.translatesAutoresizingMaskIntoConstraints = false
+        method2Button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        method2Button.topAnchor.constraint(equalTo: method1Button.bottomAnchor, constant: nicePosition).isActive = true
+        method2Button.widthAnchor.constraint(equalToConstant: widthOfButton).isActive = true
+        method2Button.heightAnchor.constraint(equalToConstant: heightOfStartButton).isActive = true
+        method2Button.tag = 2
+        method2Button.addTarget(self, action: #selector(buttonTapped(_:)), for: UIControl.Event.touchUpInside)
+        method2Button.layer.cornerRadius = heightOfStartButton / 2
+        method2Button.backgroundColor = UIColor.lightGray // 背景色
+        method2Button.layer.borderWidth = 0.1 // 枠線の幅
+        method2Button.layer.shadowOffset = CGSize(width: 1, height: 3)//widthで右側に影、heightで下側に影が入る
+        method2Button.layer.shadowOpacity = Float(0.6)//影の不透明度、1.0がMAX
+        method2Button.layer.shadowRadius = CGFloat(5)//影の幅、数字が大きいほどぼかしが効く
+        method2Button.setTitle("暗算のやり方", for: .normal)
+        method2Button.setTitleColor(UIColor.black, for: .normal)
+        method2Button.titleLabel?.font = UIFont.systemFont(ofSize: self.view.bounds.width / 13)
     }
     
 
     @objc func buttonTapped(_ sender : Any) {
         switch (sender as AnyObject).tag{
-        case 2:
+        case 1:
             performSegue(withIdentifier: "segueToVC", sender: nil)
+        case 2:
+            performSegue(withIdentifier: "segueToVC2", sender: nil)
         default:
             break
         }
